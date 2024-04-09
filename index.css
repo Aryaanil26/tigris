@@ -1,0 +1,108 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing:border-box ;
+}
+body{
+    font-family: "Poppins",sans-serif ;   
+}
+#logo,h1,h2,h3{
+    font-family: "Playfair Display", serif;
+}
+h1{
+    margin-bottom: 24px;
+}
+p{
+    margin-bottom: 16px;
+    color: rgb(58, 51, 51);
+}
+header{
+    height: 64px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-bottom: 1px solid rgb(182, 164, 164);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+}
+#logo{
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+}
+.navlinks{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+  
+}
+.navlink{
+    text-decoration: none;
+    color: rgb(71, 68, 68);
+}
+.buttons{
+    display: inline-block;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 16px;
+    padding-left: 16px;
+    text-decoration: none;
+}
+.button1{
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    
+}
+.button2{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+#buttons{
+    margin-top: 24px;
+}
+img{
+    width: 100%;
+}
+.section1{
+    display: flex;
+    flex-direction: row;
+    padding-top:48px;
+    padding-bottom 48px;
+    padding-left: 12px;
+    padding-right:12px;  
+   align-items: center;
+   justify-content: space-between;
+   gap: 64px;
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+.section2{
+    background-color: rgb(204, 192, 192);
+    padding-top: 48px;
+    padding-bottom: 48;
+    padding-right: 24px;
+    padding: 24px;
+ }
+ .pic{
+    height: 10%;
+    width: 10%;
+ }
+ .list{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    text-decoration: none;
+    padding-top: 42px;
+    padding-bottom: 42px;
+    list-style: none;
+ }
